@@ -2,8 +2,11 @@
 
 *{
     font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
+  
+  font-size: 15px;
   font-style: normal;
+  background-color: #000009;
 }
 .header-content{
     display: flex;
@@ -23,6 +26,7 @@
     list-style: none;
     display: flex;
     gap: 20px;
+    align-items: center;
 
 }
 
@@ -30,6 +34,24 @@
 .nav-bar{
     display: flex;
     flex-direction: row;
+    align-content: center;
     
-    justify-content: space-between;
+    /* justify-content: center; */
+}
+
+.auth-button{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-weight: 500;
+    
+}
+
+#idioms{
+    padding: 6px 6px;
+    color: white;
+    border-radius: 5px;
+    align-content: space-around;
 }
